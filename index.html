@@ -1,157 +1,119 @@
 <!DOCTYPE html>
+<!-- test test test -->
 <html lang="ru">
+  <head>
+    <title>promocode & login</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Позиционирование, блочная модель, шрифты.</title>
+  <body>
+    <main>
+      <article class="invitation">
+        <div class="container">
+          <ul class="logos">
+            <li><img src="img/logo.png" class="logo"></li>
+            <li><a href="#" class="btn btn-order">Заказать</a></li>
+          </ul>
+          <h1>Массаж на дому в Москве</h1>
+          <p>Для расслабления, красоты и оздоровления</p>
+          <a href="#" class="btn btn-sale">Скидка 15% на первый сеанс!</a>
+          <a href="#" class="btn btn-order">Заказать</a>
+        </div>
+      </article>
+      <section class="selection">
+        <div class="container">
+          <h1>Какой массаж выбрать?</h1>
+          <div class="box-types">
+            <div class="types type-1">
+              <p class="heads">Классический</p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="types type-2">
+              <p class="heads">Классический</p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+            </div>
+            <div class="types type-3">
+              <p class="heads">Классический</p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
-		rel="stylesheet">
+            </div>
+			    </div>
+          <div class="box-types">
+            <div class="types type-4">
+              <p class="heads">Классический</p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+            </div>
+            <div class="types type-5">
+              <p class="heads">Классический</p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
 
-<body>
-
-	<!-- <div class="modal"></div> -->
-
-	<section class="table">
-		<div class="container">
-			<h2 class="title">Таблица</h2>
-			<table class="workers">
-				<caption>Информация о работниках</caption>
-				<thead>
-					<tr>
-						<th>Фамилия</th>
-						<th>Имя</th>
-						<th>Отчество</th>
-						<th>Телефон</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Lorem, ipsum dolor.</td>
-						<td>Nemo, magni rem?</td>
-						<td>Incidunt, delectus repellendus.</td>
-						<td>Sed, dolorum nostrum.</td>
-					</tr>
-					<tr>
-						<td>Lorem, ipsum dolor.</td>
-						<td>Quas, ipsa debitis.</td>
-						<td>Inventore, numquam dicta?</td>
-						<td>Rem, nostrum temporibus.</td>
-					</tr>
-					<tr>
-						<td>Lorem, ipsum dolor.</td>
-						<td>Nemo, magni rem?</td>
-						<td>Incidunt, delectus repellendus.</td>
-						<td>Sed, dolorum nostrum.</td>
-					</tr>
-					<tr>
-						<td>Lorem, ipsum dolor.</td>
-						<td>Quas, ipsa debitis.</td>
-						<td>Inventore, numquam dicta?</td>
-						<td>Rem, nostrum temporibus.</td>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<td colspan="3">Итого:</td>
-						<td>200</td>
-					</tr>
-				</tfoot>
-			</table>
-
-		</div>
-	</section>
-
-	<section class="advantages">
-		<div class="container">
-			<h2 class="title">Почему стоит заказать массаж<br>именно у нас</h2>
-			<div class="advantages-items">
-				<div class="item item-one">
-					<p>Индивидуальный подход к&nbsp;каждому клиенту</p>
-				</div>
-				<div class="item item-two">
-					<p>Лицензированные специалисты с&nbsp;постоянным повышением квалификации</p>
-				</div>
-				<div class="item item-three">
-					<p>Скидки для постоянных клиентов</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="fonts">
-		<div class="container">
-			<h2 class="title">Шрифты (способы подключения)</h2>
-
-			<h3>Подзаголовок</h3>
-			<p class="text-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non perspiciatis a pariatur nisi
-				debitis ipsam vitae
-				dolorem suscipit illo! Iusto repellendus nam illo omnis neque minus labore itaque. Nemo, minima!</p>
-			<p class="text-google">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate officiis facere
-				asperiores vel enim earum
-				expedita ullam obcaecati. Architecto quos magnam ipsum sint commodi aliquam autem eos molestiae assumenda a.</p>
-			<p class="text-decorative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem repudiandae
-				voluptatum. Commodi, nam.
-				Qui, culpa error nobis ullam, quidem eveniet quo mollitia in a autem odio molestiae quisquam quis?</p>
-
-		</div>
-	</section>
-
-	<header>
-		<div class="container">
-			<h1 class="title">Позиционирование, блочная модель, шрифты</h1>
-		</div>
-	</header>
-	<section class="position">
-		<div class="container">
-			<h2 class="title">Позиционирование</h2>
-
-			<div class="box-kv">
-				<div class="kv kv1"></div>
-				<div class="kv kv2"></div>
-				<div class="kv kv3"></div>
-			</div>
-
-		</div>
-	</section>
-	<section class="box-model">
-		<div class="container">
-			<h2 class="title">Float</h2>
-
-			<div class="header"></div>
-			<div class="columns">
-				<div class="col col-1"></div>
-				<div class="col col-2"></div>
-				<div class="col col-3"></div>
-			</div>
-			<div class="footer"></div>
-
-			<h2 class="title">Inline-Block</h2>
-			<div class="card-container">
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card"></div>
-				<div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis eius tenetur
-					dolorum praesentium dignissimos, dolor quod quibusdam, porro expedita necessitatibus repellendus reiciendis ad
-					sed. Voluptas modi sit quo porro.</div>
-				<div class="card"></div>
-			</div>
-
-		</div>
-	</section>
-
-</body>
-
+            </div>
+            <div class="types type-6">
+              <p class="heads">Классический</p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="flower">Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+			    </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="advantages">
+            <h2 class="title">
+              Почему стоит заказать массаж<br />именно у нас
+            </h2>
+            <div class="advantages-items">
+              <div class="item item-one">
+                <p>Индивидуальный подход к каждому клиенту</p>
+              </div>
+              <div class="item item-two">
+                <p>
+                  Лицензированные специалисты с постоянным повышением
+                  квалификации
+                </p>
+              </div>
+              <div class="item item-three">
+                <p>Скидки для постоянных клиентов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
