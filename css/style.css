@@ -25,6 +25,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 512px;
+	margin-top: -200px;
 }
 
 .container {
@@ -50,6 +51,7 @@ ul.logos{
     min-width: 1290px;
     margin-left: auto;
     margin-right: auto;
+	margin-top: 200px;
 }
 ul.logos li {
   /* display: inline-block; */
